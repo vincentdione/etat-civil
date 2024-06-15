@@ -1,5 +1,5 @@
 FROM openjdk:17-jdk
 WORKDIR /app
-COPY target/gestion-stock-0.0.1-SNAPSHOT.jar  /app/gestion-stock.jar
+COPY target/gestion-document-0.0.1-SNAPSHOT.jar  /app/gestion-doc.jar
 EXPOSE 8082
-CMD ["java","-jar","gestion-stock.jar"]
+CMD ["java","-jar","gestion-doc.jar"]
